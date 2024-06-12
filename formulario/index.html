@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=0">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/template.css">
+
+        <title>Formulário de Cadastro</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="header_title">
+                    FORMULAIRE D'INSCRIPTION (Client)
+                </div>
+                <div class="header_info">
+                    Les champs marqués d'une * sont obligatoires.
+                </div>
+
+                <hr>
+                
+            </div>
+
+        </header>
+
+        <section>
+            <div class="container">
+                <form id="form_application" method="get">
+                    <label>Choisir une option</label>
+                    <select required >
+                        <option value="" >&nbsp;</option>
+                        <option value="1">Pessoal</option>
+                        <option value="2">Empresarial</option>
+                    </select> *
+                    <br>
+
+                    <label>Nom et prénom</label>
+                    <input type="text" placeholder="Nom" required>
+                    <input type="text" placeholder="Prénom" required> *
+                    <br>
+
+                    <label>Adresse</label>
+                    <input id="adresse" type="text" placeholder="Nombre et Rue" required> *
+                    <br>
+                    <label>&nbsp;</label>                    
+                    <input id="adresse" type="text" placeholder="Complement" required> *
+                    <br>
+                    
+                    <label>&nbsp;</label>
+                    <input id="adresse" type="text" placeholder="Ville"> *
+                    <br>
+
+                    <label>&nbsp;</label>
+                    <input type="text" placeholder="Code Postal">
+                    <select id="pays" required>
+                        <option value="">Pay</option>
+                        <option value="+49">Allemagne</option>
+                        <option value="+43">Autriche</option>
+                        <option value="+32">Belgique</option>
+                        <option value="+359">Bulgarie</option>
+                        <option value="+357">Chypre</option>
+                        <option value="+385">Croatie</option>
+                        <option value="+45">Danemark</option>
+                        <option value="+34">Espagne</option>
+                        <option value="+372">Estonie</option>
+                        <option value="+358">Finlande</option>
+                        <option value="+33">France</option>
+                        <option value="+30">Grèce</option>
+                        <option value="+36">Hongrie</option>
+                        <option value="+353">Irlande</option>
+                        <option value="+39">Italie</option>
+                        <option value="+371">Lettonie</option>
+                        <option value="+370">Lituanie</option>
+                        <option value="+352">Luxembourg</option>
+                        <option value="+356">Malte</option>
+                        <option value="+31">Pays-Bas</option>
+                        <option value="+48">Pologne</option>
+                        <option value="+351">Portugal</option>
+                        <option value="+420">République tchèque</option>
+                        <option value="+40">Roumanie</option>
+                        <option value="+421">Slovaquie</option>
+                        <option value="+386">Slovénie</option>
+                        <option value="+46">Suède</option>
+                    </select> *
+                    <br>
+
+                    <label>Téléphone</label>
+                    <select id="code_pays">
+                        <option value="">Code</option>
+                        <option value="+49">Allemagne - +49</option>
+                        <option value="+43">Autriche - +43</option>
+                        <option value="+32">Belgique - +32</option>
+                        <option value="+359">Bulgarie - +359</option>
+                        <option value="+357">Chypre - +357</option>
+                        <option value="+385">Croatie - +385</option>
+                        <option value="+45">Danemark - +45</option>
+                        <option value="+34">Espagne - +34</option>
+                        <option value="+372">Estonie - +372</option>
+                        <option value="+358">Finlande - +358</option>
+                        <option value="+33">France - +33</option>
+                        <option value="+30">Grèce - +30</option>
+                        <option value="+36">Hongrie - +36</option>
+                        <option value="+353">Irlande - +353</option>
+                        <option value="+39">Italie - +39</option>
+                        <option value="+371">Lettonie - +371</option>
+                        <option value="+370">Lituanie - +370</option>
+                        <option value="+352">Luxembourg - +352</option>
+                        <option value="+356">Malte - +356</option>
+                        <option value="+31">Pays-Bas - +31</option>
+                        <option value="+48">Pologne - +48</option>
+                        <option value="+351">Portugal - +351</option>
+                        <option value="+420">République tchèque - +420</option>
+                        <option value="+40">Roumanie - +40</option>
+                        <option value="+421">Slovaquie - +421</option>
+                        <option value="+386">Slovénie - +386</option>
+                        <option value="+46">Suède - +46</option>
+                    </select>
+                    <input type="tel" pattern="[0-9]{4}" placeholder="Téléphone" aria-label="10-digit number">
+                    <br>
+
+                    <label>Mobile</label>
+                    <select id="code_pays" required>
+                        <option value="">Code</option>
+                        <option value="+49">Allemagne - +49</option>
+                        <option value="+43">Autriche - +43</option>
+                        <option value="+32">Belgique - +32</option>
+                        <option value="+359">Bulgarie - +359</option>
+                        <option value="+357">Chypre - +357</option>
+                        <option value="+385">Croatie - +385</option>
+                        <option value="+45">Danemark - +45</option>
+                        <option value="+34">Espagne - +34</option>
+                        <option value="+372">Estonie - +372</option>
+                        <option value="+358">Finlande - +358</option>
+                        <option value="+33">France - +33</option>
+                        <option value="+30">Grèce - +30</option>
+                        <option value="+36">Hongrie - +36</option>
+                        <option value="+353">Irlande - +353</option>
+                        <option value="+39">Italie - +39</option>
+                        <option value="+371">Lettonie - +371</option>
+                        <option value="+370">Lituanie - +370</option>
+                        <option value="+352">Luxembourg - +352</option>
+                        <option value="+356">Malte - +356</option>
+                        <option value="+31">Pays-Bas - +31</option>
+                        <option value="+48">Pologne - +48</option>
+                        <option value="+351">Portugal - +351</option>
+                        <option value="+420">République tchèque - +420</option>
+                        <option value="+40">Roumanie - +40</option>
+                        <option value="+421">Slovaquie - +421</option>
+                        <option value="+386">Slovénie - +386</option>
+                        <option value="+46">Suède - +46</option>
+                    </select>
+                    <input type="tel" pattern="tel" placeholder="Mobile" required> *
+                    <br>
+                    
+                    <label>E-mail</label>
+                    <input id="adresse" type="text" pattern="e-mail" placeholder="nom@e-mail.fr" required> *
+                    <br>
+
+                    <label>Véhicule</label>
+                    <input id="adresse" type="text" placeholder="marque, modèle et année">
+                    <br>
+
+                    <div class="button_list">
+                        <input class="button" type="submit" value="Envoyer">
+                        <input class="button" type="submit" value="Forme claire">
+                        <input class="button" type="submit" value="Imprimer">
+                    </div>
+                
+                </form>
+
+            </div>
+
+        </section>
+
+    </body>
+
+</html>
