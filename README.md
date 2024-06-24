@@ -1,1 +1,1 @@
-# Full Stack training exercises
+# Full Stack training exercises 
