@@ -342,7 +342,7 @@ a:link, a:visited {
 }
 
 .box_feature_left {
-    background-image: url(../assets/images/charging_scooter.png);
+    background-image: url(../images/charging_scooter.png);
     height: 569px;
     width: 320px;
     display: flex;
